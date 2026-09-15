@@ -88,15 +88,13 @@ python experiments/optimization/rmilp/rmilp-pulp.py
 
 ## Requirements
 
-This repository was developed using Python [version].
+This repository was developed using Python 3.14.4.
 
 The main Python packages used are:
 
 - SciPy
 - PuLP
-- NumPy
-- pandas
-- pytest
+- otimizacao
 
 Install the required dependencies with:
 
@@ -106,6 +104,7 @@ python -m pip install -r requirements.txt
 
 ## Repository structure
 
+```
 .
 ├── README.md
 ├── CITATION.cff
@@ -126,15 +125,15 @@ python -m pip install -r requirements.txt
 └── thesis_results/
     ├── tables/
     └── figures/
+```
 
 ## Citation
 
-If you use the computational experiments or results from this repository,
-please cite the corresponding repository release.
+If you use this work, please cite the corresponding repository release.
+Citation metadata are available in [CITATION.cff](CITATION.cff).
 
-Citation metadata are provided in:
-
-CITATION.cff
+- Version: `v0.1.0`
+- DOI: Not yet assigned.
 
 On GitHub, the citation information can also be accessed through
 Cite this repository.
