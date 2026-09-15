@@ -1,1 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it using the following metadata."
+type: 
+title: "Fuzzy linear programming and fuzzy systems for gas detector procurement on offshore platforms" 
+authors:
+  - family-names: "Montenegro Alvarado"
+    given-names: "Emilio Fernando"
+    affiliation: "Universidade Estadual de Campinas (UNICAMP), Faculdade de Engenharia Química (FEQ), Departamento de Engenharia de Sistemas Químicos (DESQ), Campinas, SP, Brazil"
+    orcid: "https://orcid.org/0009-0004-6581-0626"
 
+repository-code: "https://github.com/chem-montenegroemilio-eq/fuzzy-optimization-petroleum-detector-procurement"
+abstract: >-
+  Fuzzy optimization and fuzzy systems are implemented for the gas detector procurement problem on offshore platforms. The problem is solved using fuzzy linear programming and further analyzed through sensitivity analysis for the selection of different brands. Finally, a fuzzy system is implemented to support decision-making when categorical variables are considered. 
+keywords:
+  - "procurement negotiations"
+  - "fuzzy optimization"
+  - "fuzzy systems"
+  - "gas detectors"
+  - "safety instrumentation"
+  - "chemical engineering"
+
+license: MIT
