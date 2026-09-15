@@ -10,7 +10,7 @@ authors:
 
 repository-code: "https://github.com/chem-montenegroemilio-eq/fuzzy-optimization-petroleum-detector-procurement"
 abstract: >-
-  Fuzzy optimization and fuzzy systems are implemented for the gas detector procurement problem on offshore platforms. The problem is solved using fuzzy linear programming and further analyzed through sensitivity analysis for the selection of different brands. Finally, a fuzzy system is implemented to support decision-making when categorical variables are considered. 
+  Fuzzy optimization and fuzzy systems are implemented for the gas detector procurement problem on offshore platforms. The problem is solved using fuzzy linear programming and further analyzed through sensitivity analysis for the selection of different brands. Finally, a fuzzy system is implemented to support decision-making when categorical variables are considered. In this initial version v0.1.0 only fuzzy optimization is implemented. 
 keywords:
   - "procurement negotiations"
   - "fuzzy optimization"
@@ -18,5 +18,4 @@ keywords:
   - "gas detectors"
   - "safety instrumentation"
   - "chemical engineering"
-doi: None
 license: MIT

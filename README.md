@@ -6,6 +6,21 @@ The repository includes implementations of linear and fuzzy optimization problem
 
 ---
 
+## Current scope
+
+This version contains LP, FLP, ILP, FMILP, and RMILP implementations
+for gas detector procurement. Model coefficients are embedded
+in the Python scripts.
+
+## Planned work
+
+The following components are planned for future versions and
+are not included in the current release:
+
+- Sensitivity analysis.
+- A fuzzy rule-based decision-support system.
+- Exported result tables and figures.
+
 ## Quick start
 
 ### Running optimization problems
@@ -112,7 +127,7 @@ python -m pip install -r requirements.txt
 ├── requirements.txt
 ├── .gitignore
 │
-├── data/
+├── data/               # planned
 │
 ├── experiments/
 │   └── optimization/
@@ -122,7 +137,7 @@ python -m pip install -r requirements.txt
 │       ├── fmilp/
 │       └── rmilp/
 │
-└── thesis_results/
+└── thesis_results/     # planned
     ├── tables/
     └── figures/
 ```
@@ -137,9 +152,3 @@ Citation metadata are available in [CITATION.cff](CITATION.cff).
 
 On GitHub, the citation information can also be accessed through
 Cite this repository.
-
-Repository version:
-
-v0.1.0
-
-[DOI will be added when available.]
