@@ -1,5 +1,3 @@
-
-
 from scipy.optimize import linprog
 
 A_ub = [[ 20,     5,   10,   2],
