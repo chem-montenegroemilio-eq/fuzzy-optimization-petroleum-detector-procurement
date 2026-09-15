@@ -21,6 +21,22 @@ are not included in the current release:
 - A fuzzy rule-based decision-support system.
 - Exported result tables and figures.
 
+## Requirements
+
+This repository was developed using Python 3.14.4.
+
+The main Python packages used are:
+
+- SciPy
+- PuLP
+- otimizacao
+
+Install the required dependencies with:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ## Quick start
 
 ### Running optimization problems
@@ -32,6 +48,9 @@ Run the LP formulation using `otimizacao`:
 ```bash
 python experiments/optimization/lp/lp-otimizacao.py
 ```
+
+When prompted `Deseja continuar para Fase2?(S/N)`, type `S` and
+press Enter to continue to phase two.
 
 Run the LP formulation using SciPy:
 
@@ -52,6 +71,9 @@ Run the FLP formulation using `otimizacao`:
 ```bash
 python experiments/optimization/flp/flp-otimizacao.py
 ```
+
+When prompted `Deseja continuar para Fase2?(S/N)`, type `S` and
+press Enter to continue to phase two.
 
 Run the FLP formulation using SciPy:
 
@@ -99,22 +121,6 @@ Run the RMILP formulation using PuLP:
 
 ```bash
 python experiments/optimization/rmilp/rmilp-pulp.py
-```
-
-## Requirements
-
-This repository was developed using Python 3.14.4.
-
-The main Python packages used are:
-
-- SciPy
-- PuLP
-- otimizacao
-
-Install the required dependencies with:
-
-```bash
-python -m pip install -r requirements.txt
 ```
 
 ## Repository structure
