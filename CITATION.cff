@@ -1,4 +1,5 @@
 cff-version: 1.2.0
+version: "0.1.0"
 message: "If you use this software, please cite it using the following metadata."
 type: software
 title: "Fuzzy linear programming and fuzzy systems for gas detector procurement on offshore platforms" 
@@ -10,7 +11,7 @@ authors:
 
 repository-code: "https://github.com/chem-montenegroemilio-eq/fuzzy-optimization-petroleum-detector-procurement"
 abstract: >-
-  Fuzzy optimization and fuzzy systems are implemented for the gas detector procurement problem on offshore platforms. The problem is solved using fuzzy linear programming and further analyzed through sensitivity analysis for the selection of different brands. Finally, a fuzzy system is implemented to support decision-making when categorical variables are considered. In this initial version v0.1.0 only fuzzy optimization is implemented. 
+  This version implements linear, integer, and fuzzy optimization models for gas detector procurement on offshore platforms. Sensitivity analysis and a fuzzy rule-based decision-support system are planned for future versions. 
 keywords:
   - "procurement negotiations"
   - "fuzzy optimization"
