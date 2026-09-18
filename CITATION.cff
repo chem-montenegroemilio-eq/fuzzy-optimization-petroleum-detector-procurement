@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 version: "0.1.0"
-message: "If you use this software, please cite it using the following metadata."
-type: software
+message: "If you use these computational experiments and results, please cite them using the following metadata."
+type: dataset
 title: "Fuzzy linear programming and fuzzy systems for gas detector procurement on offshore platforms" 
 authors:
   - family-names: "Montenegro Alvarado"

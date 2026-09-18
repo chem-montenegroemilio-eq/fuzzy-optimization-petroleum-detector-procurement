@@ -1,4 +1,4 @@
-# Fuzzy Linear Programming and Fuzzy Systems for Gas Detector Procurement on Offshore Platforms
+# Master's Title: Fuzzy Linear Programming and Fuzzy Systems for Gas Detector Procurement on Offshore Platforms
 
 `fuzzy-optimization-petroleum-detector-procurement` contains the mathematical formulations, computational experiments, and results developed for a master's dissertation on fuzzy optimization applied to gas detector procurement on offshore platforms.
 

@@ -12,7 +12,7 @@ print(f'Resultado de y= {y[5].varValue}')
 f_objetivo = 0
 for var, coef in c.objective.items():
     f_objetivo += coef * var.varValue
-print(f'\nf.objetivo(x*)= y= {f_objetivo}')
+print(f'\nf.objetivo(x*)= {f_objetivo}')
 lista_x = []
 for i, var in x.items():
     if 'x' in str(var):
